@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC8A3FCC13EC150C00852FFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A3FCB13EC150C00852FFE /* UIKit.framework */; };
+		DC8A3FCE13EC150C00852FFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A3FCD13EC150C00852FFE /* Foundation.framework */; };
+		DC8A3FD013EC150C00852FFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A3FCF13EC150C00852FFE /* CoreGraphics.framework */; };
+		DC8A3FD613EC150C00852FFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC8A3FD413EC150C00852FFE /* InfoPlist.strings */; };
+		DC8A3FD813EC150C00852FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A3FD713EC150C00852FFE /* main.m */; };
+		DC8A3FDC13EC150C00852FFE /* BNLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A3FDB13EC150C00852FFE /* BNLAppDelegate.m */; };
+		DC8A3FDF13EC150C00852FFE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8A3FDD13EC150C00852FFE /* MainWindow.xib */; };
+		DC8A3FE213EC150C00852FFE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A3FE113EC150C00852FFE /* FirstViewController.m */; };
+		DC8A3FE513EC150C00852FFE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A3FE413EC150C00852FFE /* SecondViewController.m */; };
+		DC8A3FE813EC150C00852FFE /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8A3FE613EC150C00852FFE /* FirstView.xib */; };
+		DC8A3FEB13EC150C00852FFE /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8A3FE913EC150C00852FFE /* SecondView.xib */; };
+		DC8A3FF313EC150D00852FFE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A3FF213EC150D00852FFE /* SenTestingKit.framework */; };
+		DC8A3FF413EC150D00852FFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A3FCB13EC150C00852FFE /* UIKit.framework */; };
+		DC8A3FF513EC150D00852FFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A3FCD13EC150C00852FFE /* Foundation.framework */; };
+		DC8A3FF613EC150D00852FFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A3FCF13EC150C00852FFE /* CoreGraphics.framework */; };
+		DC8A3FFE13EC150D00852FFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC8A3FFC13EC150D00852FFE /* InfoPlist.strings */; };
+		DC8A400013EC150D00852FFE /* BNLTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DC8A3FFF13EC150D00852FFE /* BNLTests.h */; };
+		DC8A400213EC150D00852FFE /* BNLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A400113EC150D00852FFE /* BNLTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC8A3FF713EC150D00852FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8A3FBE13EC150C00852FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC8A3FC613EC150C00852FFE;
+			remoteInfo = BNL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC8A3FC713EC150C00852FFE /* BNL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8A3FCB13EC150C00852FFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC8A3FCD13EC150C00852FFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC8A3FCF13EC150C00852FFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC8A3FD313EC150C00852FFE /* BNL-Info.plist */ = {isa = PBXFileReference; path = "BNL-Info.plist"; sourceTree = "<group>"; };
+		DC8A3FD513EC150C00852FFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC8A3FD713EC150C00852FFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC8A3FD913EC150C00852FFE /* BNL-Prefix.pch */ = {isa = PBXFileReference; path = "BNL-Prefix.pch"; sourceTree = "<group>"; };
+		DC8A3FDA13EC150C00852FFE /* BNLAppDelegate.h */ = {isa = PBXFileReference; path = BNLAppDelegate.h; sourceTree = "<group>"; };
+		DC8A3FDB13EC150C00852FFE /* BNLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNLAppDelegate.m; sourceTree = "<group>"; };
+		DC8A3FDE13EC150C00852FFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DC8A3FE013EC150C00852FFE /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		DC8A3FE113EC150C00852FFE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DC8A3FE313EC150C00852FFE /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		DC8A3FE413EC150C00852FFE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DC8A3FE713EC150C00852FFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		DC8A3FEA13EC150C00852FFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		DC8A3FF113EC150D00852FFE /* BNLTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNLTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8A3FF213EC150D00852FFE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC8A3FFB13EC150D00852FFE /* BNLTests-Info.plist */ = {isa = PBXFileReference; path = "BNLTests-Info.plist"; sourceTree = "<group>"; };
+		DC8A3FFD13EC150D00852FFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC8A3FFF13EC150D00852FFE /* BNLTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNLTests.h; sourceTree = "<group>"; };
+		DC8A400113EC150D00852FFE /* BNLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNLTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC8A3FC413EC150C00852FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8A3FCC13EC150C00852FFE /* UIKit.framework in Frameworks */,
+				DC8A3FCE13EC150C00852FFE /* Foundation.framework in Frameworks */,
+				DC8A3FD013EC150C00852FFE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8A3FED13EC150D00852FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8A3FF313EC150D00852FFE /* SenTestingKit.framework in Frameworks */,
+				DC8A3FF413EC150D00852FFE /* UIKit.framework in Frameworks */,
+				DC8A3FF513EC150D00852FFE /* Foundation.framework in Frameworks */,
+				DC8A3FF613EC150D00852FFE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC8A3FBC13EC150C00852FFE = {
+			isa = PBXGroup;
+			children = (
+				DC8A3FD113EC150C00852FFE /* BNL */,
+				DC8A3FF913EC150D00852FFE /* BNLTests */,
+				DC8A3FCA13EC150C00852FFE /* Frameworks */,
+				DC8A3FC813EC150C00852FFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC8A3FC813EC150C00852FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC8A3FC713EC150C00852FFE /* BNL.app */,
+				DC8A3FF113EC150D00852FFE /* BNLTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC8A3FCA13EC150C00852FFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC8A3FCB13EC150C00852FFE /* UIKit.framework */,
+				DC8A3FCD13EC150C00852FFE /* Foundation.framework */,
+				DC8A3FCF13EC150C00852FFE /* CoreGraphics.framework */,
+				DC8A3FF213EC150D00852FFE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC8A3FD113EC150C00852FFE /* BNL */ = {
+			isa = PBXGroup;
+			children = (
+				DC8A3FDA13EC150C00852FFE /* BNLAppDelegate.h */,
+				DC8A3FDB13EC150C00852FFE /* BNLAppDelegate.m */,
+				DC8A3FDD13EC150C00852FFE /* MainWindow.xib */,
+				DC8A3FE013EC150C00852FFE /* FirstViewController.h */,
+				DC8A3FE113EC150C00852FFE /* FirstViewController.m */,
+				DC8A3FE313EC150C00852FFE /* SecondViewController.h */,
+				DC8A3FE413EC150C00852FFE /* SecondViewController.m */,
+				DC8A3FE613EC150C00852FFE /* FirstView.xib */,
+				DC8A3FE913EC150C00852FFE /* SecondView.xib */,
+				DC8A3FD213EC150C00852FFE /* Supporting Files */,
+			);
+			path = BNL;
+			sourceTree = "<group>";
+		};
+		DC8A3FD213EC150C00852FFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC8A3FD313EC150C00852FFE /* BNL-Info.plist */,
+				DC8A3FD413EC150C00852FFE /* InfoPlist.strings */,
+				DC8A3FD713EC150C00852FFE /* main.m */,
+				DC8A3FD913EC150C00852FFE /* BNL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC8A3FF913EC150D00852FFE /* BNLTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC8A3FFF13EC150D00852FFE /* BNLTests.h */,
+				DC8A400113EC150D00852FFE /* BNLTests.m */,
+				DC8A3FFA13EC150D00852FFE /* Supporting Files */,
+			);
+			path = BNLTests;
+			sourceTree = "<group>";
+		};
+		DC8A3FFA13EC150D00852FFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC8A3FFB13EC150D00852FFE /* BNLTests-Info.plist */,
+				DC8A3FFC13EC150D00852FFE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC8A3FC613EC150C00852FFE /* BNL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8A400513EC150D00852FFE /* Build configuration list for PBXNativeTarget "BNL" */;
+			buildPhases = (
+				DC8A3FC313EC150C00852FFE /* Sources */,
+				DC8A3FC413EC150C00852FFE /* Frameworks */,
+				DC8A3FC513EC150C00852FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNL;
+			productName = BNL;
+			productReference = DC8A3FC713EC150C00852FFE /* BNL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC8A3FF013EC150D00852FFE /* BNLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8A400813EC150D00852FFE /* Build configuration list for PBXNativeTarget "BNLTests" */;
+			buildPhases = (
+				DC8A3FEC13EC150D00852FFE /* Sources */,
+				DC8A3FED13EC150D00852FFE /* Frameworks */,
+				DC8A3FEE13EC150D00852FFE /* Resources */,
+				DC8A3FEF13EC150D00852FFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC8A3FF813EC150D00852FFE /* PBXTargetDependency */,
+			);
+			name = BNLTests;
+			productName = BNLTests;
+			productReference = DC8A3FF113EC150D00852FFE /* BNLTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC8A3FBE13EC150C00852FFE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DC8A3FC113EC150C00852FFE /* Build configuration list for PBXProject "BNL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC8A3FBC13EC150C00852FFE;
+			productRefGroup = DC8A3FC813EC150C00852FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC8A3FC613EC150C00852FFE /* BNL */,
+				DC8A3FF013EC150D00852FFE /* BNLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC8A3FC513EC150C00852FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8A3FD613EC150C00852FFE /* InfoPlist.strings in Resources */,
+				DC8A3FDF13EC150C00852FFE /* MainWindow.xib in Resources */,
+				DC8A3FE813EC150C00852FFE /* FirstView.xib in Resources */,
+				DC8A3FEB13EC150C00852FFE /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8A3FEE13EC150D00852FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8A3FFE13EC150D00852FFE /* InfoPlist.strings in Resources */,
+				DC8A400013EC150D00852FFE /* BNLTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC8A3FEF13EC150D00852FFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC8A3FC313EC150C00852FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8A3FD813EC150C00852FFE /* main.m in Sources */,
+				DC8A3FDC13EC150C00852FFE /* BNLAppDelegate.m in Sources */,
+				DC8A3FE213EC150C00852FFE /* FirstViewController.m in Sources */,
+				DC8A3FE513EC150C00852FFE /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8A3FEC13EC150D00852FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8A400213EC150D00852FFE /* BNLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC8A3FF813EC150D00852FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC8A3FC613EC150C00852FFE /* BNL */;
+			targetProxy = DC8A3FF713EC150D00852FFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC8A3FD413EC150C00852FFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8A3FD513EC150C00852FFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC8A3FDD13EC150C00852FFE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8A3FDE13EC150C00852FFE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DC8A3FE613EC150C00852FFE /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8A3FE713EC150C00852FFE /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		DC8A3FE913EC150C00852FFE /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8A3FEA13EC150C00852FFE /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		DC8A3FFC13EC150D00852FFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8A3FFD13EC150D00852FFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC8A400313EC150D00852FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC8A400413EC150D00852FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC8A400613EC150D00852FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNL/BNL-Prefix.pch";
+				INFOPLIST_FILE = "BNL/BNL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC8A400713EC150D00852FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNL/BNL-Prefix.pch";
+				INFOPLIST_FILE = "BNL/BNL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC8A400913EC150D00852FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BNL.app/BNL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNL/BNL-Prefix.pch";
+				INFOPLIST_FILE = "BNLTests/BNLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DC8A400A13EC150D00852FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BNL.app/BNL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNL/BNL-Prefix.pch";
+				INFOPLIST_FILE = "BNLTests/BNLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC8A3FC113EC150C00852FFE /* Build configuration list for PBXProject "BNL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8A400313EC150D00852FFE /* Debug */,
+				DC8A400413EC150D00852FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8A400513EC150D00852FFE /* Build configuration list for PBXNativeTarget "BNL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8A400613EC150D00852FFE /* Debug */,
+				DC8A400713EC150D00852FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC8A400813EC150D00852FFE /* Build configuration list for PBXNativeTarget "BNLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8A400913EC150D00852FFE /* Debug */,
+				DC8A400A13EC150D00852FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC8A3FBE13EC150C00852FFE /* Project object */;
+}
