@@ -24,6 +24,8 @@
 		DC8A400D13EC158F00852FFE /* Results.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A400C13EC158F00852FFE /* Results.m */; };
 		DC8A401013EC15A300852FFE /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A400F13EC15A300852FFE /* Map.m */; };
 		DC8A401313EC15BB00852FFE /* ContactUs.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A401213EC15BB00852FFE /* ContactUs.m */; };
+		DC8F5B0613EC1E9B008A94D3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8F5B0513EC1E9B008A94D3 /* CoreLocation.framework */; };
+		DC8F5B0D13EC1FF3008A94D3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8F5B0C13EC1FF3008A94D3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		DC8A400F13EC15A300852FFE /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
 		DC8A401113EC15BB00852FFE /* ContactUs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUs.h; sourceTree = "<group>"; };
 		DC8A401213EC15BB00852FFE /* ContactUs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUs.m; sourceTree = "<group>"; };
+		DC8F5B0513EC1E9B008A94D3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DC8F5B0C13EC1FF3008A94D3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8F5B0D13EC1FF3008A94D3 /* MapKit.framework in Frameworks */,
+				DC8F5B0613EC1E9B008A94D3 /* CoreLocation.framework in Frameworks */,
 				DC8A3FCC13EC150C00852FFE /* UIKit.framework in Frameworks */,
 				DC8A3FCE13EC150C00852FFE /* Foundation.framework in Frameworks */,
 				DC8A3FD013EC150C00852FFE /* CoreGraphics.framework in Frameworks */,
@@ -90,6 +96,8 @@
 		DC8A3FBC13EC150C00852FFE = {
 			isa = PBXGroup;
 			children = (
+				DC8F5B0C13EC1FF3008A94D3 /* MapKit.framework */,
+				DC8F5B0513EC1E9B008A94D3 /* CoreLocation.framework */,
 				DC8A400B13EC158F00852FFE /* Results.h */,
 				DC8A400E13EC15A300852FFE /* Map.h */,
 				DC8A401113EC15BB00852FFE /* ContactUs.h */,
@@ -440,6 +448,7 @@
 				DC8A400713EC150D00852FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC8A400813EC150D00852FFE /* Build configuration list for PBXNativeTarget "BNLTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +457,7 @@
 				DC8A400A13EC150D00852FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
