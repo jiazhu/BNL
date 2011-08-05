@@ -14,10 +14,6 @@
 		DC8A3FD813EC150C00852FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A3FD713EC150C00852FFE /* main.m */; };
 		DC8A3FDC13EC150C00852FFE /* BNLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A3FDB13EC150C00852FFE /* BNLAppDelegate.m */; };
 		DC8A3FDF13EC150C00852FFE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8A3FDD13EC150C00852FFE /* MainWindow.xib */; };
-		DC8A3FE213EC150C00852FFE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A3FE113EC150C00852FFE /* FirstViewController.m */; };
-		DC8A3FE513EC150C00852FFE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A3FE413EC150C00852FFE /* SecondViewController.m */; };
-		DC8A3FE813EC150C00852FFE /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8A3FE613EC150C00852FFE /* FirstView.xib */; };
-		DC8A3FEB13EC150C00852FFE /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8A3FE913EC150C00852FFE /* SecondView.xib */; };
 		DC8A3FF313EC150D00852FFE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A3FF213EC150D00852FFE /* SenTestingKit.framework */; };
 		DC8A3FF413EC150D00852FFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A3FCB13EC150C00852FFE /* UIKit.framework */; };
 		DC8A3FF513EC150D00852FFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A3FCD13EC150C00852FFE /* Foundation.framework */; };
@@ -25,6 +21,9 @@
 		DC8A3FFE13EC150D00852FFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC8A3FFC13EC150D00852FFE /* InfoPlist.strings */; };
 		DC8A400013EC150D00852FFE /* BNLTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DC8A3FFF13EC150D00852FFE /* BNLTests.h */; };
 		DC8A400213EC150D00852FFE /* BNLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A400113EC150D00852FFE /* BNLTests.m */; };
+		DC8A400D13EC158F00852FFE /* Results.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A400C13EC158F00852FFE /* Results.m */; };
+		DC8A401013EC15A300852FFE /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A400F13EC15A300852FFE /* Map.m */; };
+		DC8A401313EC15BB00852FFE /* ContactUs.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8A401213EC15BB00852FFE /* ContactUs.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,25 +41,25 @@
 		DC8A3FCB13EC150C00852FFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DC8A3FCD13EC150C00852FFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC8A3FCF13EC150C00852FFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DC8A3FD313EC150C00852FFE /* BNL-Info.plist */ = {isa = PBXFileReference; path = "BNL-Info.plist"; sourceTree = "<group>"; };
+		DC8A3FD313EC150C00852FFE /* BNL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BNL-Info.plist"; sourceTree = "<group>"; };
 		DC8A3FD513EC150C00852FFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC8A3FD713EC150C00852FFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DC8A3FD913EC150C00852FFE /* BNL-Prefix.pch */ = {isa = PBXFileReference; path = "BNL-Prefix.pch"; sourceTree = "<group>"; };
-		DC8A3FDA13EC150C00852FFE /* BNLAppDelegate.h */ = {isa = PBXFileReference; path = BNLAppDelegate.h; sourceTree = "<group>"; };
+		DC8A3FD913EC150C00852FFE /* BNL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BNL-Prefix.pch"; sourceTree = "<group>"; };
+		DC8A3FDA13EC150C00852FFE /* BNLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNLAppDelegate.h; sourceTree = "<group>"; };
 		DC8A3FDB13EC150C00852FFE /* BNLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNLAppDelegate.m; sourceTree = "<group>"; };
 		DC8A3FDE13EC150C00852FFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		DC8A3FE013EC150C00852FFE /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		DC8A3FE113EC150C00852FFE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		DC8A3FE313EC150C00852FFE /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		DC8A3FE413EC150C00852FFE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		DC8A3FE713EC150C00852FFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		DC8A3FEA13EC150C00852FFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		DC8A3FF113EC150D00852FFE /* BNLTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNLTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8A3FF213EC150D00852FFE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DC8A3FFB13EC150D00852FFE /* BNLTests-Info.plist */ = {isa = PBXFileReference; path = "BNLTests-Info.plist"; sourceTree = "<group>"; };
+		DC8A3FFB13EC150D00852FFE /* BNLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BNLTests-Info.plist"; sourceTree = "<group>"; };
 		DC8A3FFD13EC150D00852FFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC8A3FFF13EC150D00852FFE /* BNLTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNLTests.h; sourceTree = "<group>"; };
 		DC8A400113EC150D00852FFE /* BNLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNLTests.m; sourceTree = "<group>"; };
+		DC8A400B13EC158F00852FFE /* Results.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Results.h; sourceTree = "<group>"; };
+		DC8A400C13EC158F00852FFE /* Results.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Results.m; sourceTree = "<group>"; };
+		DC8A400E13EC15A300852FFE /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		DC8A400F13EC15A300852FFE /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		DC8A401113EC15BB00852FFE /* ContactUs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUs.h; sourceTree = "<group>"; };
+		DC8A401213EC15BB00852FFE /* ContactUs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUs.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +90,12 @@
 		DC8A3FBC13EC150C00852FFE = {
 			isa = PBXGroup;
 			children = (
+				DC8A400B13EC158F00852FFE /* Results.h */,
+				DC8A400E13EC15A300852FFE /* Map.h */,
+				DC8A401113EC15BB00852FFE /* ContactUs.h */,
+				DC8A401213EC15BB00852FFE /* ContactUs.m */,
+				DC8A400F13EC15A300852FFE /* Map.m */,
+				DC8A400C13EC158F00852FFE /* Results.m */,
 				DC8A3FD113EC150C00852FFE /* BNL */,
 				DC8A3FF913EC150D00852FFE /* BNLTests */,
 				DC8A3FCA13EC150C00852FFE /* Frameworks */,
@@ -124,12 +129,6 @@
 				DC8A3FDA13EC150C00852FFE /* BNLAppDelegate.h */,
 				DC8A3FDB13EC150C00852FFE /* BNLAppDelegate.m */,
 				DC8A3FDD13EC150C00852FFE /* MainWindow.xib */,
-				DC8A3FE013EC150C00852FFE /* FirstViewController.h */,
-				DC8A3FE113EC150C00852FFE /* FirstViewController.m */,
-				DC8A3FE313EC150C00852FFE /* SecondViewController.h */,
-				DC8A3FE413EC150C00852FFE /* SecondViewController.m */,
-				DC8A3FE613EC150C00852FFE /* FirstView.xib */,
-				DC8A3FE913EC150C00852FFE /* SecondView.xib */,
 				DC8A3FD213EC150C00852FFE /* Supporting Files */,
 			);
 			path = BNL;
@@ -234,8 +233,6 @@
 			files = (
 				DC8A3FD613EC150C00852FFE /* InfoPlist.strings in Resources */,
 				DC8A3FDF13EC150C00852FFE /* MainWindow.xib in Resources */,
-				DC8A3FE813EC150C00852FFE /* FirstView.xib in Resources */,
-				DC8A3FEB13EC150C00852FFE /* SecondView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +270,9 @@
 			files = (
 				DC8A3FD813EC150C00852FFE /* main.m in Sources */,
 				DC8A3FDC13EC150C00852FFE /* BNLAppDelegate.m in Sources */,
-				DC8A3FE213EC150C00852FFE /* FirstViewController.m in Sources */,
-				DC8A3FE513EC150C00852FFE /* SecondViewController.m in Sources */,
+				DC8A400D13EC158F00852FFE /* Results.m in Sources */,
+				DC8A401013EC15A300852FFE /* Map.m in Sources */,
+				DC8A401313EC15BB00852FFE /* ContactUs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,22 +309,6 @@
 				DC8A3FDE13EC150C00852FFE /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		DC8A3FE613EC150C00852FFE /* FirstView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC8A3FE713EC150C00852FFE /* en */,
-			);
-			name = FirstView.xib;
-			sourceTree = "<group>";
-		};
-		DC8A3FE913EC150C00852FFE /* SecondView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC8A3FEA13EC150C00852FFE /* en */,
-			);
-			name = SecondView.xib;
 			sourceTree = "<group>";
 		};
 		DC8A3FFC13EC150D00852FFE /* InfoPlist.strings */ = {
