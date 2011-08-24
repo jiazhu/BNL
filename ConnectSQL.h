@@ -17,4 +17,6 @@
 
 - (IBAction)insert:(id)sender;
 
+- (IBAction)select:(id)sender;
+
 @end
