@@ -14,6 +14,7 @@
     
     NSString *title;
     NSString *subtitle;
+    
 }
 @end
 
